@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForm", "WebForm\WebForm.csproj", "{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conexión", "Conexión\Conexión.csproj", "{F4B118AE-D060-43BA-B013-6BC3F220301C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{A51DF5C9-05D9-44AD-A357-8EEA8B75E848}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B118AE-D060-43BA-B013-6BC3F220301C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B118AE-D060-43BA-B013-6BC3F220301C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B118AE-D060-43BA-B013-6BC3F220301C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B118AE-D060-43BA-B013-6BC3F220301C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51DF5C9-05D9-44AD-A357-8EEA8B75E848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51DF5C9-05D9-44AD-A357-8EEA8B75E848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51DF5C9-05D9-44AD-A357-8EEA8B75E848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51DF5C9-05D9-44AD-A357-8EEA8B75E848}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

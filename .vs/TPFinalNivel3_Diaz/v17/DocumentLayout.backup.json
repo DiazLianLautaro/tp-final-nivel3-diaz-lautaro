@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\perfil.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\perfil.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\webform\\detalle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\detalle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\webform\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\webform\\mimaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\mimaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\webform\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\webform\\detalle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\detalle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MiMaster.Master",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\MiMaster.Master",
+              "RelativeDocumentMoniker": "WebForm\\MiMaster.Master",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\MiMaster.Master",
+              "RelativeToolTip": "WebForm\\MiMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-22T21:15:34.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MiMaster.Master.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\MiMaster.Master.cs",
+              "RelativeDocumentMoniker": "WebForm\\MiMaster.Master.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\MiMaster.Master.cs",
+              "RelativeToolTip": "WebForm\\MiMaster.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T21:15:39.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Global.asax.cs",
+              "RelativeDocumentMoniker": "WebForm\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Global.asax.cs",
+              "RelativeToolTip": "WebForm\\Global.asax.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:46:42.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Perfil.aspx",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Perfil.aspx",
+              "RelativeDocumentMoniker": "WebForm\\Perfil.aspx",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Perfil.aspx",
+              "RelativeToolTip": "WebForm\\Perfil.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-05T22:25:27.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Detalle.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Detalle.aspx.cs",
+              "RelativeDocumentMoniker": "WebForm\\Detalle.aspx.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Detalle.aspx.cs",
+              "RelativeToolTip": "WebForm\\Detalle.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:45:04.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Detalle.aspx",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Detalle.aspx",
+              "RelativeDocumentMoniker": "WebForm\\Detalle.aspx",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Detalle.aspx",
+              "RelativeToolTip": "WebForm\\Detalle.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-22T20:40:07.474Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
