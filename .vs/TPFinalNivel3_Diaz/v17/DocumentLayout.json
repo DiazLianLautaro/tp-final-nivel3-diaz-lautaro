@@ -3,52 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\articuloformulario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\articuloformulario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\favoritos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\favoritos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\articuloformulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\articuloformulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{F4B118AE-D060-43BA-B013-6BC3F220301C}|Conexi\u00F3n\\Conexi\u00F3n.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\conexi\u00F3n\\art\u00EDculofavorito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B118AE-D060-43BA-B013-6BC3F220301C}|Conexi\u00F3n\\Conexi\u00F3n.csproj|solutionrelative:conexi\u00F3n\\art\u00EDculofavorito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\webform\\detalle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\detalle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\favoritos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\favoritos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\webform\\detalle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\detalle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\productos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\productos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\webform\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\mimaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\mimaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51DF5C9-05D9-44AD-A357-8EEA8B75E848}|Dominio\\Dominio.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\dominio\\art\u00EDculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51DF5C9-05D9-44AD-A357-8EEA8B75E848}|Dominio\\Dominio.csproj|solutionrelative:dominio\\art\u00EDculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\articuloformulario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\articuloformulario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A51DF5C9-05D9-44AD-A357-8EEA8B75E848}|Dominio\\Dominio.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A51DF5C9-05D9-44AD-A357-8EEA8B75E848}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\mimaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\webform\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\perfil.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\perfil.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\detalle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\detalle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\detalle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\detalle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\webform\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\articuloformulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\articuloformulario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\perfil.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\perfil.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\webform\\contacto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\contacto.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|c:\\users\\lauty\\documents\\cursoc#3\\tpfinalnivel3_diaz\\webform\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\webform\\productos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{71D8AD90-DB61-4C5C-9185-2C296FF1CF05}|WebForm\\WebForm.csproj|solutionrelative:webform\\productos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +90,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\Dominio\\Usuario.cs",
+              "RelativeDocumentMoniker": "Dominio\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\Dominio\\Usuario.cs",
+              "RelativeToolTip": "Dominio\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:47:11.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Art\u00EDculo.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\Dominio\\Art\u00EDculo.cs",
+              "RelativeDocumentMoniker": "Dominio\\Art\u00EDculo.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\Dominio\\Art\u00EDculo.cs",
+              "RelativeToolTip": "Dominio\\Art\u00EDculo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:35:38.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Art\u00EDculoFavorito.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\Conexi\u00F3n\\Art\u00EDculoFavorito.cs",
+              "RelativeDocumentMoniker": "Conexi\u00F3n\\Art\u00EDculoFavorito.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\Conexi\u00F3n\\Art\u00EDculoFavorito.cs",
+              "RelativeToolTip": "Conexi\u00F3n\\Art\u00EDculoFavorito.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T00:19:08.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Favoritos.aspx",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Favoritos.aspx",
+              "RelativeDocumentMoniker": "WebForm\\Favoritos.aspx",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Favoritos.aspx",
+              "RelativeToolTip": "WebForm\\Favoritos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-27T00:25:56.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Favoritos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Favoritos.aspx.cs",
+              "RelativeDocumentMoniker": "WebForm\\Favoritos.aspx.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Favoritos.aspx.cs",
+              "RelativeToolTip": "WebForm\\Favoritos.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABIAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:19:15.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Perfil.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Perfil.aspx.cs",
+              "RelativeDocumentMoniker": "WebForm\\Perfil.aspx.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Perfil.aspx.cs",
+              "RelativeToolTip": "WebForm\\Perfil.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:33:05.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Registrar.aspx",
               "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Registrar.aspx",
               "RelativeDocumentMoniker": "WebForm\\Registrar.aspx",
@@ -74,51 +174,11 @@
               "RelativeToolTip": "WebForm\\Registrar.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-22T22:29:13.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T22:29:13.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Perfil.aspx",
-              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Perfil.aspx",
-              "RelativeDocumentMoniker": "WebForm\\Perfil.aspx",
-              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Perfil.aspx",
-              "RelativeToolTip": "WebForm\\Perfil.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-05T22:25:27.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Contacto.aspx",
-              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Contacto.aspx",
-              "RelativeDocumentMoniker": "WebForm\\Contacto.aspx",
-              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Contacto.aspx",
-              "RelativeToolTip": "WebForm\\Contacto.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-22T21:59:56.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Login.aspx",
-              "RelativeDocumentMoniker": "WebForm\\Login.aspx",
-              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Login.aspx",
-              "RelativeToolTip": "WebForm\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-22T21:58:11.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Default.aspx",
               "RelativeDocumentMoniker": "WebForm\\Default.aspx",
@@ -131,7 +191,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "WebForm\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Default.aspx.cs",
+              "RelativeToolTip": "WebForm\\Default.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:12:29.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Detalle.aspx",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Detalle.aspx",
+              "RelativeDocumentMoniker": "WebForm\\Detalle.aspx",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Detalle.aspx",
+              "RelativeToolTip": "WebForm\\Detalle.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-22T20:40:07.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Detalle.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Detalle.aspx.cs",
+              "RelativeDocumentMoniker": "WebForm\\Detalle.aspx.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Detalle.aspx.cs",
+              "RelativeToolTip": "WebForm\\Detalle.aspx.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:45:04.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MiMaster.Master.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\MiMaster.Master.cs",
+              "RelativeDocumentMoniker": "WebForm\\MiMaster.Master.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\MiMaster.Master.cs",
+              "RelativeToolTip": "WebForm\\MiMaster.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:30:08.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MiMaster.Master",
               "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\MiMaster.Master",
               "RelativeDocumentMoniker": "WebForm\\MiMaster.Master",
@@ -144,7 +254,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Login.aspx",
+              "RelativeDocumentMoniker": "WebForm\\Login.aspx",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Login.aspx",
+              "RelativeToolTip": "WebForm\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-22T21:58:11.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Global.asax.cs",
               "RelativeDocumentMoniker": "WebForm\\Global.asax.cs",
@@ -152,12 +274,11 @@
               "RelativeToolTip": "WebForm\\Global.asax.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAIwB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T20:46:42.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T20:46:42.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "ArticuloFormulario.aspx",
               "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\ArticuloFormulario.aspx",
               "RelativeDocumentMoniker": "WebForm\\ArticuloFormulario.aspx",
@@ -165,25 +286,23 @@
               "RelativeToolTip": "WebForm\\ArticuloFormulario.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-09T22:31:45.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T22:31:45.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "ArticuloFormulario.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\ArticuloFormulario.aspx.cs",
               "RelativeDocumentMoniker": "WebForm\\ArticuloFormulario.aspx.cs",
               "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\ArticuloFormulario.aspx.cs",
               "RelativeToolTip": "WebForm\\ArticuloFormulario.aspx.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFMAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T22:20:06.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T22:20:06.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "Productos.aspx",
               "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Productos.aspx",
               "RelativeDocumentMoniker": "WebForm\\Productos.aspx",
@@ -191,34 +310,7 @@
               "RelativeToolTip": "WebForm\\Productos.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-05T23:19:29.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Detalle.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Detalle.aspx.cs",
-              "RelativeDocumentMoniker": "WebForm\\Detalle.aspx.cs",
-              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Detalle.aspx.cs",
-              "RelativeToolTip": "WebForm\\Detalle.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T20:45:04.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Detalle.aspx",
-              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Detalle.aspx",
-              "RelativeDocumentMoniker": "WebForm\\Detalle.aspx",
-              "ToolTip": "C:\\Users\\Lauty\\Documents\\CursoC#3\\TPFinalNivel3_Diaz\\WebForm\\Detalle.aspx",
-              "RelativeToolTip": "WebForm\\Detalle.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-22T20:40:07.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T23:19:29.226Z"
             }
           ]
         }

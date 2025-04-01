@@ -30,5 +30,9 @@ namespace Dominio
         public string ImagenUrl { get; set; }
 
         public int Precio { get; set; }
+
+        public int idFavorito { get; set; }
+        public int idUser { get; set; }
+        public int idArticulo { get; set; }
     }
 }

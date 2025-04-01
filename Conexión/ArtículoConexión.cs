@@ -35,7 +35,6 @@ namespace Conexión
                 lector = comando.ExecuteReader();
 
                 //While de Primera carga de Artículos al dgv
-                //PENDIENTE el id no entra en los nuevos artículos agregados
                 while (lector.Read())
                 {
                     Artículo art = new Artículo();
@@ -48,8 +47,6 @@ namespace Conexión
                         art.ImagenUrl = (string)lector["ImagenUrl"];
                     else
                         art.ImagenUrl = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fes%2Fsearch%2Fdefault-image-icon&psig=AOvVaw3rCp-r51u5MwSm9v93tEJv&ust=1736290000819000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODB_biW4ooDFQAAAAAdAAAAABAE";
-                    //solucionar imagen default
-
 
                     art.Marca = new Marca();
                     art.Marca.MId = (int)lector["IdMarca"];
@@ -61,8 +58,7 @@ namespace Conexión
 
                     lista.Add(art);
                 }
-
-                //Cierra la conexión
+ 
                 conexion.Close();
                 return lista;
             }

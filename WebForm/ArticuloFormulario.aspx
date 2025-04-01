@@ -4,7 +4,15 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h2>Formulario de carga o modificar</h2>
+    <%if (txtId.Text == "")
+        {%>
+
+    <h2>Formulario de Carga</h2>
+    <%}
+        else
+        {%>
+    <h2>Formulario de Modificación</h2>
+    <%} %>
 
     <asp:ScriptManager runat="server" />
     <%--Para que UpdatePanel funciones--%>
@@ -70,7 +78,7 @@
                         <asp:Label ID="lblImagen" Text="Imagen" runat="server" />
                         <asp:TextBox ID="txtaImagen" AutoPostBack="true" OnTextChanged="txtaImagen_TextChanged" CssClass="form-control formGreey border-dark" runat="server" />
                     </div>
-                    <asp:Image ID="imgArticulo" class="tamañoImagens" ImageUrl="https://coffective.com/wp-content/uploads/2018/06/default-featured-image.png.jpg" runat="server" />
+                    <asp:Image ID="imgArticulo" class="tamañoImagensDetalle" ImageUrl="https://th.bing.com/th/id/R.ca0f4aeff51ff7e15c440816546f7730?rik=eJ5AEYKPVEnIIA&pid=ImgRaw&r=0&sres=1&sresct=1" runat="server" />
                 </ContentTemplate>
             </asp:UpdatePanel>
         </div>

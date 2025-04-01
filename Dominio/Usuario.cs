@@ -16,5 +16,6 @@ namespace Dominio
         public string UrlImagenPerfil { get; set; }
         public bool Admin { get; set; }
 
+        
     }
 }

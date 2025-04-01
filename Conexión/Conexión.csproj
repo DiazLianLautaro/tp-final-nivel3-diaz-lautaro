@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="AccesoDatos.cs" />
     <Compile Include="ArtículoConexión.cs" />
+    <Compile Include="ArtículoFavorito.cs" />
     <Compile Include="CategoríaConexión.cs" />
     <Compile Include="EmailService.cs" />
     <Compile Include="MarcaConexión.cs" />

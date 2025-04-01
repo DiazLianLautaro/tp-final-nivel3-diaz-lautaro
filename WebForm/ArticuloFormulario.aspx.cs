@@ -86,10 +86,10 @@ namespace WebForm
                     ddlCategoria.Text = seleccionado.Categoria.CId.ToString();
 
 
-                    if (!string.IsNullOrEmpty(seleccionado.ImagenUrl) && (seleccionado.ImagenUrl.StartsWith("http://") || seleccionado.ImagenUrl.StartsWith("https://")))
+                    if (!string.IsNullOrEmpty(seleccionado.ImagenUrl) && (seleccionado.ImagenUrl.StartsWith("http://") || seleccionado.ImagenUrl.StartsWith("https://") && !seleccionado.ImagenUrl.StartsWith("https://www")))
                         imgArticulo.ImageUrl = seleccionado.ImagenUrl.ToString();
                     else
-                        imgArticulo.ImageUrl = "https://png.pngtree.com/png-clipart/20230812/original/pngtree-photo-gallery-image-element-vector-picture-image_10495065.png";
+                        imgArticulo.ImageUrl = "https://th.bing.com/th/id/R.ca0f4aeff51ff7e15c440816546f7730?rik=eJ5AEYKPVEnIIA&pid=ImgRaw&r=0&sres=1&sresct=1";
 
 
                 }
@@ -146,7 +146,12 @@ namespace WebForm
 
         protected void txtaImagen_TextChanged(object sender, EventArgs e)
         {
-            imgArticulo.ImageUrl = txtaImagen.Text;
+            if (!string.IsNullOrEmpty(txtaImagen.Text) && (txtaImagen.Text.StartsWith("http://") || txtaImagen.Text.StartsWith("https://") && !txtaImagen.Text.StartsWith("https://www")))
+                imgArticulo.ImageUrl = txtaImagen.Text;
+            else
+                imgArticulo.ImageUrl = "https://th.bing.com/th/id/R.ca0f4aeff51ff7e15c440816546f7730?rik=eJ5AEYKPVEnIIA&pid=ImgRaw&r=0&sres=1&sresct=1";
+
+
         }
 
         protected void btnEliminar_Click(object sender, EventArgs e)

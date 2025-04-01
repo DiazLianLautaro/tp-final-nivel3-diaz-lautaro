@@ -25,7 +25,7 @@
         }
 
         .tamañoImagensDetalle {
-            width: 450px;
+            width: 350px;
         }
 
         .BGCGreey {
@@ -37,85 +37,86 @@
             border-radius: 5%;
             text-align: center;
         }
-        .Cardfooter{
+
+        .Cardfooter {
             background-color: #AAAAAA;
             border: solid;
             border-width: 2px;
         }
-        .formGreey{
+
+        .formGreey {
             background-color: #DDDDDD;
         }
     </style>
 </head>
 
+
 <body class="BGCGreey">
-    <form id="form1" runat="server">
-        <nav class="navbar navbar-expand-lg bg-black">
-            <div class="container-fluid">
-                <a class="navbar-brand btn text-bg-danger home" href="Default.aspx">Home</a> <%--Home--%>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <%if (Session["usuario"] != null)
-                            { %>
-                        <li class="nav-item">
-                            <a class="nav-link colorLista" href="Productos.aspx">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link colorLista" href="ArticuloFormulario.aspx">Formulario</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link colorLista" href="Favoritos.aspx">Favoritos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link colorLista" href="Carrito.aspx">Mi Carrito</a>
-                        </li>
-                        <%}%>
-                        <li class="nav-item">
-                            <a class="nav-link colorLista" href="Contacto.aspx">Contacto</a>
-                        </li>
-                        <%--<li class="nav-item">
+    <main>
+        <form id="form1" runat="server">
+            <nav class="navbar navbar-expand-lg bg-black">
+                <div class="container-fluid">
+                    <a class="navbar-brand btn text-bg-danger home" href="Default.aspx">Home</a> <%--Home--%>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <%if (Session["usuario"] != null)
+                                { %>
+                            <li class="nav-item">
+                                <a class="nav-link colorLista" href="Productos.aspx">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link colorLista" href="ArticuloFormulario.aspx">Formulario</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link colorLista" href="Favoritos.aspx">Favoritos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link colorLista" href="Carrito.aspx">Mi Carrito</a>
+                            </li>
+                            <%}%>
+                            <li class="nav-item">
+                                <a class="nav-link colorLista" href="Contacto.aspx">Contacto</a>
+                            </li>
+                            <%--<li class="nav-item">
                             <a class="nav-link" href="Favoritos.aspx">Mis Favoritos</a>
                         </li>--%>
-                    </ul>
+                        </ul>
+                    </div>
+                    <div class="d-flex" role="search">
+                        <%if (Session["usuario"] == null)
+                            { %>
+                        <asp:Button Text="Ingresar" ID="mrIngresar" OnClick="mrIngresar_Click" CssClass="btn btn-outline-success me-2" type="submit" runat="server" />
+                        <asp:Button Text="Registrarme" ID="mrRegistrarme" OnClick="mrRegistrarme_Click" CssClass="btn btn-outline-success me-2" type="submit" runat="server" />
+                        <%}
+                            else
+                            { %>
+                        <asp:Button Text="Cerrar Sesion" ID="mrCerrar" OnClick="mrCerrar_Click" CssClass="btn btn-outline-success me-2" runat="server" />
+                        <asp:Button Text="Perfil" ID="mrPerfil" OnClick="mrPerfil_Click" CssClass="btn btn-outline-success me-2" type="submit" runat="server" />
+                        <asp:Image ID="imgPerfil" Style="height: 40px; width: 40px; border-radius: 50%;" runat="server" />
+                        <% } %>
+                    </div>
                 </div>
-                <div class="d-flex" role="search">
-                    <%if (Session["usuario"] == null)
-                        { %>
-                    <asp:Button Text="Ingresar" ID="mrIngresar" OnClick="mrIngresar_Click" CssClass="btn btn-outline-success me-2" type="submit" runat="server" />
-                    <asp:Button Text="Registrarme" ID="mrRegistrarme" OnClick="mrRegistrarme_Click" CssClass="btn btn-outline-success me-2" type="submit" runat="server" />
-                    <%}
-                        else
-                        { %>
-                    <asp:Button Text="Cerrar Sesion" ID="mrCerrar" OnClick="mrCerrar_Click" CssClass="btn btn-outline-success me-2" runat="server" />
-                    <asp:Button Text="Perfil" ID="mrPerfil" OnClick="mrPerfil_Click" CssClass="btn btn-outline-success me-2" type="submit" runat="server" />
-                    <asp:Image ID="imgPerfil" Style="height: 40px; width: 40px; border-radius: 50%;" runat="server" />
-                    <% } %>
+            </nav>
+            <hr />
+            <div>
+                <div class="container">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
                 </div>
             </div>
-        </nav>
+            <hr />
+        </form>
+    </main>
 
-        <hr />
-
-        <div>
-            <div class="container">
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
+    <footer class="bg-black">
+        <div class="footer-content">
+            <hr />
+            <h3>este es el footer</h3>
         </div>
-
-        <hr />
-
-        <div class="footer">
-            <footer class="bg-black">
-                <hr />
-                <h3 class="colorLista">este es el footer</h3>
-
-            </footer>
-        </div>
-    </form>
+    </footer>
 
     <%-- JavaScript --%>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

@@ -27,10 +27,12 @@
                         <div class="card-body Cardfooter border-black rounded-bottom-4 card-footer">
                             <h5 class="card-title"><%#Eval("Nombre") %></h5>
                             <p class="card-text"><%#Eval("Descripcion") %></p>
-                            <%--Pendiente, navegar llevando el Id a la página necesaria--%>
-                            <a href="Detalle.aspx?id=<%#Eval("Id") %>" class="btn btn-danger">Carrito</a>
+                            <%--<asp:Button ID="btnAgregarFavoritos" Text="Agregar A Favoritos" OnClick="btnAgregarFavoritos_Click" CommandArgument='<%#Eval("Id") %>' CommandName="FavoritoId" class="btn btn-danger" runat="server" />--%>
+                            <%--agregar a favorito con un btn. si se agregó mostrar eliminidar de fav y sino agregarafav nuevamente--%>
+                            <a href="Favoritos.aspx?id=<%#Eval("Id") %>" class="btn btn-danger">favorito</a>
                             <a href="Detalle.aspx?id=<%#Eval("Id") %>" class="btn btn-danger">Ver Detalles</a>
-                            <a href="Detalle.aspx?id=<%#Eval("Id") %>" class="btn btn-danger">favorito</a>
+                            <%--Con el carrito lo mismo--%>
+                            <a href="Carrito.aspx?id=<%#Eval("Id") %>" class="btn btn-danger">Carrito</a>
                         </div>
                     </div>
                 </div>
