@@ -13,7 +13,10 @@ namespace WebForm
         {
             try
             {
-                lblError.Text = Session["Error"].ToString();
+                if (Session["Error"] != null)
+                    lblError.Text = Session["Error"].ToString();
+                else
+                    lblError.Text = "error desconocido";
 
             }
             catch (Exception ex)

@@ -34,14 +34,15 @@ namespace Conexión
 
         //setearParámetro. Inserta en Base de Datos los Parámetros que le llegan.
         //En este caso string y objeto.
-        //Es.. por ejemplo ...parametro("@id", ID);
+        //Es.. por ejemplo ...parametro("@idUsuario", IdUser);
         public void setearParametro(string nombre, object valor)
         {
             comando.Parameters.AddWithValue(nombre, valor);
         }
 
 
-        //Ejecutar
+
+        //Devuelve un Objeto.
         public void ejecutarLectura()
         {
             comando.Connection = conexion;
@@ -56,6 +57,9 @@ namespace Conexión
             }
         }
 
+
+
+        //Devuelve un número de las filas afectadas.
         public void ejecutarAccion()
         {
             comando.Connection = conexion;
@@ -70,7 +74,10 @@ namespace Conexión
             }
         }
 
-        public int ejecutarAccionScalar() //Devuelve el id del registro que ingresamos o registramos
+
+
+        //Devuelve el id del registro que ingresamos o registramos
+        public int ejecutarAccionScalar() 
         {
             comando.Connection = conexion;
             try
@@ -83,6 +90,8 @@ namespace Conexión
                 throw ex;
             }
         }
+
+
 
         public void cerrarConexion()
         {

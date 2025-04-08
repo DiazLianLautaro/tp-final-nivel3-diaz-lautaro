@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MiMaster.Master" AutoEventWireup="true" CodeBehind="Detalle.aspx.cs" Inherits="WebForm.Detalle" %>
+﻿rr<%@ Page Title="" Language="C#" MasterPageFile="~/MiMaster.Master" AutoEventWireup="true" CodeBehind="Detalle.aspx.cs" Inherits="WebForm.Detalle" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -9,7 +9,7 @@
             <%if (Conexión.Seguridad.esAdmin(Session["usuario"]))
                 {%>
             <div>
-                <h1>Sos admin, podés ver el ID.</h1>
+                <h1>Eres admin, podés ver el ID.</h1>
                 <hr />
                 <asp:Label Text="ID" runat="server" />
                 <asp:TextBox Text="id" ID="tbxId" ReadOnly="true" CssClass="form-control formGreey rounded-pill border-dark text-body-secondary" runat="server" />

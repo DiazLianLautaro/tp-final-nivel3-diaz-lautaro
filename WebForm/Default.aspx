@@ -7,12 +7,15 @@
     <h2>Bienvenido al Catálogo de Artículos</h2>
 
     <%--Sí hay usuario "Ingresaste" sino "Debes loguearte"--%>
-    <%if (Session["usuario"] != null){%>
-            <asp:Label Text="text" ID="lblUser" class="h4" runat="server" />
-            <h4>Ingresaste Correctamente</h4>
-    <%}else{ %>
-            <h4>Debes Ingresar Para Continuar</h4>
-            <a href="Login.aspx" class="btn btn-outline-success me-2">Ingresar</a>
+    <%if (Session["usuario"] != null)
+        {%>
+    <asp:Label Text="text" ID="lblUser" class="h4" runat="server" />
+    <h4>Ingresaste Correctamente</h4>
+    <%}
+    else
+    { %>
+    <h4>Debes Ingresar Para Continuar</h4>
+    <a href="Login.aspx" class="btn btn-danger">Ingresar</a>
     <%} %>
 
     <hr />
@@ -23,16 +26,15 @@
             <ItemTemplate>
                 <div class="col">
                     <div class="card h-100 border-black Cardc">
-                        <img src="<%#Eval("ImagenUrl") %>" onerror="this.onerror=null; this.src='https://png.pngtree.com/png-clipart/20230812/original/pngtree-photo-gallery-image-element-vector-picture-image_10495065.png'" class="card-img-top tamañoImagens " alt="...">
+                        <img src="<%#Eval("ImagenUrl") %>" onerror="this.onerror=null; this.src='https://png.pngtree.com/png-clipart/20230812/original/pngtree-photo-gallery-image-element-vector-picture-image_10495065.png'" class="card-img-top" alt="...">
                         <div class="card-body Cardfooter border-black rounded-bottom-4 card-footer">
-                            <h5 class="card-title"><%#Eval("Nombre") %></h5>
-                            <p class="card-text"><%#Eval("Descripcion") %></p>
-                            <%--<asp:Button ID="btnAgregarFavoritos" Text="Agregar A Favoritos" OnClick="btnAgregarFavoritos_Click" CommandArgument='<%#Eval("Id") %>' CommandName="FavoritoId" class="btn btn-danger" runat="server" />--%>
-                            <%--agregar a favorito con un btn. si se agregó mostrar eliminidar de fav y sino agregarafav nuevamente--%>
+                            <h4 class="card-title"><%#Eval("Nombre") %></h4>
+                            <h5 class="card-text"><%#Eval("Descripcion") %></h5>
+                            <p class="card-text">Marca: <%#Eval("Marca") %></p>
+                            <p class="card-text">Categoría: <%#Eval("Categoria") %></p>
+                            <h5 class="card-text">$<%#Eval("Precio") %></h5>
                             <a href="Favoritos.aspx?id=<%#Eval("Id") %>" class="btn btn-danger">favorito</a>
                             <a href="Detalle.aspx?id=<%#Eval("Id") %>" class="btn btn-danger">Ver Detalles</a>
-                            <%--Con el carrito lo mismo--%>
-                            <a href="Carrito.aspx?id=<%#Eval("Id") %>" class="btn btn-danger">Carrito</a>
                         </div>
                     </div>
                 </div>

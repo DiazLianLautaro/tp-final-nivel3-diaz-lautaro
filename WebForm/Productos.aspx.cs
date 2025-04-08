@@ -18,7 +18,7 @@ namespace WebForm
             {
                 if (!Seguridad.esAdmin(Session["usuario"]))
                 {
-                    Session.Add("error", "Se requieren permisos de admin");
+                    Session.Add("error", "Se requieren permisos de admin.");
                     Response.Redirect("Error.aspx");
                 }
             }
@@ -45,7 +45,6 @@ namespace WebForm
             //Cargar el dgv 
             dgvArticulos.DataSource = conexion.filtrar(ddlCampo.SelectedItem.ToString(), ddlCriterio.SelectedItem.ToString(), tbxFiltroAvanzado.Text);
             dgvArticulos.DataBind();
-            //dgvArticulos.DataSource = Session["listaArticulos"];
 
         }
 

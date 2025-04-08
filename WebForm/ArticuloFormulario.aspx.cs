@@ -20,7 +20,7 @@ namespace WebForm
             {
                 if (!Seguridad.esAdmin(Session["usuario"]))
                 {
-                    Session.Add("error", "Se requieren permisos de admin");
+                    Session.Add("error", "Se requieren permisos de admin.");
                     Response.Redirect("Error.aspx");
                 }
             }
@@ -67,11 +67,7 @@ namespace WebForm
                 string rqId = Request.QueryString["id"] != null ? Request.QueryString["id"].ToString() : "";
                 if (rqId != "" && !IsPostBack)
                 {
-                    /*int idTemp = int.Parse(Request.QueryString["id"]);*/                    //Traemos y guardamos el "id" a modificar en "idTemp".
-                    /*List<Artículo> temporal = (List<Artículo>)Session["listaArticulos"];*/  //Guardamos la "listaArticulos" que estén en sesión en "temporal".
-                    /*Artículo seleccionado = temporal.Find(x => x.Id == idTemp);*/           //Luego guardamos en "seleccionado" la busqueda en del Id de "temporal" que coincida con el Id de "idTemp".
-                                                                                              //Resumen, traemos ambas para buscar el Id que coincida y mostrar.
-
+                    
                     ArtículoConexión connect = new ArtículoConexión();
                     Artículo seleccionado = (connect.lista(rqId))[0];
 

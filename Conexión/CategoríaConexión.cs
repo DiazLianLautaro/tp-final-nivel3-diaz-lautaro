@@ -9,7 +9,7 @@ namespace Conexión
 {
     public class CategoríaConexión
     {
-        public List<Categoría> Catlistar() //Conexión a la table de CATEGORIAS de sql.
+        public List<Categoría> Catlistar() //Conexión a la tabla de CATEGORIAS de SQL.
         {
             List<Categoría> lista = new List<Categoría>();
             AccesoDatos datos = new AccesoDatos();

@@ -24,11 +24,14 @@ namespace WebForm
                         tbxApellido.Text = usuario.Apellido;
                         tbxNombre.Text = usuario.Nombre;
                         tbxEmail.Text = usuario.Email;
-                        imgImagenPerfil.ImageUrl = usuario.UrlImagenPerfil;
                         tbxEmail.ReadOnly = true;
 
                         if(!string.IsNullOrEmpty(usuario.UrlImagenPerfil))
                             imgImagenPerfil.ImageUrl = "~/Images/ImagenPerfil/" + usuario.UrlImagenPerfil + "?v=" + DateTime.Now.Ticks.ToString();
+                        else
+                        { 
+                            imgImagenPerfil.ImageUrl = "https://t4.ftcdn.net/jpg/04/70/29/97/360_F_470299797_UD0eoVMMSUbHCcNJCdv2t8B2g1GVqYgs.jpg";
+                        }
 
                     }
                 }
@@ -55,17 +58,25 @@ namespace WebForm
                     string ruta = Server.MapPath("./Images/ImagenPerfil/");
                     txtImagen.PostedFile.SaveAs(ruta + "perfil-" + usuario.Id + ".jpg");
                     usuario.UrlImagenPerfil = "perfil-" + usuario.Id + ".jpg";
+
+                    //Leer Imagen
+
+                    Image img = (Image)Master.FindControl("imgPerfil");
+                    img.ImageUrl = "~/Images/ImagenPerfil/" + usuario.UrlImagenPerfil + "?v=" + DateTime.Now.Ticks.ToString();
+                    imgImagenPerfil.ImageUrl = img.ImageUrl;
+                }   
+                else if(imgImagenPerfil.ImageUrl == "")
+                {
+                    imgImagenPerfil.ImageUrl = "https://t4.ftcdn.net/jpg/04/70/29/97/360_F_470299797_UD0eoVMMSUbHCcNJCdv2t8B2g1GVqYgs.jpg";
                 }
+                
+                   
 
                 usuario.Apellido = tbxApellido.Text;
                 usuario.Nombre = tbxNombre.Text;
                 conexión.actualizarPerfil(usuario);
 
                 
-                //Leer Imagen
-                Image img = (Image)Master.FindControl("imgPerfil");
-                img.ImageUrl = "~/Images/ImagenPerfil/" + usuario.UrlImagenPerfil + "?v=" + DateTime.Now.Ticks.ToString();
-                imgImagenPerfil.ImageUrl = img.ImageUrl;
             }
             catch (Exception ex)
             {

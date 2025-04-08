@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//Librerias agregadas.
 using System.Data.SqlClient;
 using Dominio;
 using System.Globalization;
@@ -26,6 +25,8 @@ namespace Conexión
                 conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_WEB_DB; integrated security=true";
                 comando.CommandType = System.Data.CommandType.Text;
                 comando.CommandText = "select A.Id, Codigo, Nombre, A.Descripcion, M.Descripcion Marca, C.Descripcion Tipo, IdMarca, IdCategoria, ImagenUrl, Precio from ARTICULOS A, CATEGORIAS C, MARCAS M Where M.Id = IdMarca And C.Id = IdCategoria ";
+                
+                //Por si buscamos un Artículo en específico.
                 if (id != "")
                     comando.CommandText += " and A.Id = " + id;
                 comando.Connection = conexion;
@@ -34,7 +35,7 @@ namespace Conexión
                 conexion.Open();
                 lector = comando.ExecuteReader();
 
-                //While de Primera carga de Artículos al dgv
+                //Cargar y Mostrar
                 while (lector.Read())
                 {
                     Artículo art = new Artículo();
@@ -69,52 +70,8 @@ namespace Conexión
             }
         }
 
-        public List<Artículo> listarConSP()
-        {
-            List<Artículo> lista = new List<Artículo>();
-            AccesoDatos datos = new AccesoDatos();
-            try
-            {
-                string consulta = "select A.Id, Codigo, Nombre, A.Descripcion, M.Descripcion Marca, C.Descripcion Tipo, IdMarca, IdCategoria, ImagenUrl, Precio from ARTICULOS A, CATEGORIAS C, MARCAS M Where M.Id = IdMarca And C.Id = IdCategoria";
-                datos.setearConsulta(consulta);
-                datos.ejecutarLectura();
 
-                //While de datos a filtrar
-                while (datos.Lector.Read())
-                {
-                    Artículo art = new Artículo();
-                    art.Id = (int)datos.Lector["Id"];
-                    art.Codigo = (string)datos.Lector["Codigo"];
-                    art.Nombre = (string)datos.Lector["Nombre"];
-                    art.Descripcion = (string)datos.Lector["Descripcion"];
-                    art.Precio = (int)datos.Lector.GetDecimal(9);
-                    if (!(datos.Lector["ImagenUrl"] is DBNull))
-                        art.ImagenUrl = (string)datos.Lector["ImagenUrl"];
-                    //else
-                    //    art.ImagenUrl = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fes%2Fsearch%2Fdefault-image-icon&psig=AOvVaw3rCp-r51u5MwSm9v93tEJv&ust=1736290000819000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODB_biW4ooDFQAAAAAdAAAAABAE";
-
-                    art.Marca = new Marca();
-                    art.Marca.MId = (int)datos.Lector["IdMarca"];
-                    art.Marca.MDescripcion = (string)datos.Lector["Marca"];
-
-                    art.Categoria = new Categoría();
-                    art.Categoria.CId = (int)datos.Lector["IdCategoria"];
-                    art.Categoria.CDescripcion = (string)datos.Lector["Tipo"];
-
-
-                    lista.Add(art);
-                }
-
-                return lista;
-            }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
-        }
-
-        //Métodods de acciones en Formulario
+        //Métodos de acciones en Formulario.
         public void agregar(Artículo nuevo)
         {
             AccesoDatos datos = new AccesoDatos();

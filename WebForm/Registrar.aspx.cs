@@ -35,11 +35,11 @@ namespace WebForm
 
                 //Ya registrado, iniciamos su sesión automáticamente.
                 Session.Add("usuario", user);
+                Response.Redirect("Perfil.aspx", false);
 
                 //Enviamos el correo
                 emailService.armarCorreo(user.Email, "Bienvenido", "Hola que tal");
                 emailService.enviarEmail();
-                Response.Redirect("Default.aspx", false);
             }
             catch (Exception ex)
             {

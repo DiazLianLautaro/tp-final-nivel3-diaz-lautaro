@@ -15,28 +15,41 @@ namespace Conexión
             List<Artículo> lista = new List<Artículo>();
             AccesoDatos datos = new AccesoDatos();
             try
-            
             {
-                //datos.setearConsulta("select Id, IdUser, IdArticulo from FAVORITOS where IdUser = @idUser");
-                //datos.setearConsulta("select A.Id, A.Codigo, A.Nombre, A.Descripcion, M.Descripcion Marca, C.Descripcion Tipo, A.IdMarca, A.IdCategoria, A.ImagenUrl, A.Precio, F.Id, F.IdUser, F.IdArticulo, S.Id from ARTICULOS A,@idUser CATEGORIAS C, MARCAS M, FAVORITOS F, USERS S Where M.Id = IdMarca And C.Id = IdCategoria And A.Id = F.IdArticulo And S.Id = @idUser");
-                datos.setearConsulta("select A.Id, A.Codigo, A.Nombre, A.Descripcion, A.ImagenUrl, A.Precio, F.Id Idfav, F.IdUser, F.IdArticulo, S.Id from ARTICULOS A, FAVORITOS F, USERS S Where A.Id = F.IdArticulo And F.IdUser = S.Id And S.Id = @idUser");
-                datos.setearParametro("idUser", idUsuario);
+                datos.setearConsulta("select A.Id, A.Codigo, A.Nombre, A.Descripcion, M.Descripcion Marca, C.Descripcion Tipo, A.IdMarca, A.IdCategoria, A.ImagenUrl, A.Precio, F.Id Idfav, F.IdUser, F.IdArticulo, S.Id from ARTICULOS A, CATEGORIAS C, MARCAS M, FAVORITOS F, USERS S Where M.Id = IdMarca And C.Id = IdCategoria And A.Id = F.IdArticulo And F.IdUser = S.Id And S.Id = @idUser");
+                datos.setearParametro("@idUser", idUsuario);
                 datos.ejecutarLectura();
 
-                while(datos.Lector.Read())
-                {
+                while (datos.Lector.Read())
+                {//e
                     Artículo artículo = new Artículo();
                     artículo.idFavorito = int.Parse(datos.Lector["Idfav"].ToString());
                     artículo.idUser = int.Parse(datos.Lector["IdUser"].ToString());
                     artículo.idArticulo = int.Parse(datos.Lector["IdArticulo"].ToString());
+                    artículo.Nombre = datos.Lector["Nombre"].ToString();
+                    artículo.Descripcion = datos.Lector["Descripcion"].ToString();
+                    artículo.ImagenUrl = datos.Lector["ImagenUrl"].ToString();
+                    artículo.Precio = (int)datos.Lector.GetDecimal(9);
+
+                    artículo.Marca = new Marca();
+                    artículo.Marca.MId = int.Parse(datos.Lector["IdMarca"].ToString());
+                    artículo.Marca.MDescripcion = datos.Lector["Marca"].ToString();
+
+                    artículo.Categoria = new Categoría();
+                    artículo.Categoria.CId = int.Parse(datos.Lector["IdCategoria"].ToString());
+                    artículo.Categoria.CDescripcion = datos.Lector["Tipo"].ToString();
+
                     lista.Add(artículo);
                 }
-                datos.cerrarConexion();
                 return lista;
             }
             catch (Exception ex)
             {
                 throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
             }
         }
 
@@ -49,16 +62,6 @@ namespace Conexión
                 datos.setearParametro("@idUser", nuevo.idUser);
                 datos.setearParametro("@IdArticulo", nuevo.idArticulo);
                 datos.ejecutarAccion();
-
-                //if (datos.Lector.Read())
-                //{
-                //    int cantidad = Convert.ToInt32(datos.Lector[0]);
-                //    if (cantidad > 0)
-                //    {
-                //        datos.cerrarConexion();
-                //        return;
-                //    }
-                //}
             }
             catch (Exception ex)
             {
@@ -73,9 +76,20 @@ namespace Conexión
         public void eliminarFavorito(int id)
         {
             AccesoDatos datos = new AccesoDatos();
-            datos.setearConsulta("DELETE FROM FAVORITOS WHERE IdArticulo = @idArticulo"); //PENDIENTE: id articulo y id usuario
-            datos.setearParametro("@idArticulo", id);
-            datos.ejecutarAccion();
+            try
+            {
+                datos.setearConsulta("delete from FAVORITOS where Id = @idFavorito");
+                datos.setearParametro("@idFavorito", id);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
         }
     }
 }

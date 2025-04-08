@@ -13,7 +13,7 @@ namespace WebForm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            imgPerfil.ImageUrl = "https://th.bing.com/th/id/OIP.pIm4Tk65DS4OCZdg3QESFgHaHa?w=740&h=740&rs=1&pid=ImgDetMain";
+            imgPerfil.ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/2/2f/No-photo-m.png";
             if (!((Page is Login) || (Page is Default) || (Page is Registrar) || (Page is Contacto) || (Page is Error) || (Page is Detalle)))
             {
                 if (!(Seguridad.sesionActiva(Session["usuario"])))
@@ -25,7 +25,9 @@ namespace WebForm
 
                 //si la UrlImagenPerfil no es null o vacía. entonces asignamos imagen.
                 if (!string.IsNullOrEmpty(usuario.UrlImagenPerfil))
-                imgPerfil.ImageUrl = "~/Images/ImagenPerfil/" + ((Usuario)Session["usuario"]).UrlImagenPerfil + "?v=" + DateTime.Now.Ticks.ToString();
+                    imgPerfil.ImageUrl = "~/Images/ImagenPerfil/" + ((Usuario)Session["usuario"]).UrlImagenPerfil + "?v=" + DateTime.Now.Ticks.ToString();
+                else
+                    imgPerfil.ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/2/2f/No-photo-m.png";
             }
 
         }

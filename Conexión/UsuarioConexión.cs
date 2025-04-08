@@ -24,7 +24,6 @@ namespace Conexión
 			}
 			catch (Exception ex)
 			{
-
 				throw ex;
 			}
 			finally
@@ -32,10 +31,6 @@ namespace Conexión
 				datos.cerrarConexion();
 			}
         }
-
-        //cargar nuevo usuario con:
-        //Email y contraseña (lo demás queda vacío hasta ser modificado por el usuario)
-        //Admin en false por default
 
         public bool Loguear(Usuario usuario)
         {

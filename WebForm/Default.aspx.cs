@@ -21,7 +21,7 @@ namespace WebForm
 
                 ArtículoConexión negocio = new ArtículoConexión();
                 Usuario usuario = (Usuario)Session["usuario"];
-                ListaArticulo = negocio.listarConSP();
+                ListaArticulo = negocio.lista();
             
                 if (!IsPostBack)
                 {
@@ -42,35 +42,6 @@ namespace WebForm
             {
                 Session.Add("error", ex.ToString());
             }
-
-
         }
-
-        //protected void btnAgregarFavoritos_Click(object sender, EventArgs e)
-        //{
-        //    try
-        //    {
-        //        Usuario usuario = (Usuario)Session["usuario"];
-
-        //        if (Seguridad.sesionActiva(Session["usuario"]))
-        //        {
-        //            ArtículoFavorito articulo = new ArtículoFavorito();
-        //            Favorito favorito = new Favorito();
-        //            Usuario user = (Usuario)Session["usuario"];
-
-        //            Button btn = sender as Button;
-        //            string btnid = btn.CommandArgument;
-        //            favorito.idArticulo = int.Parse(btnid);
-        //            favorito.idUser = user.Id;
-
-        //            articulo.agregarFavorito(favorito);
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-
-        //        Session.Add("error", ex.ToString());
-        //    }
-        //}
     }
 }
