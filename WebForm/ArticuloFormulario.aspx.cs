@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Dominio;
-using Conexión;
+using Negocio;
 using System.Runtime.Remoting.Contexts;
 
 namespace WebForm
@@ -142,8 +142,8 @@ namespace WebForm
 
         protected void txtaImagen_TextChanged(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtaImagen.Text) && (txtaImagen.Text.StartsWith("http://") || txtaImagen.Text.StartsWith("https://") && !txtaImagen.Text.StartsWith("https://www")))
-                imgArticulo.ImageUrl = txtaImagen.Text;
+            if (!string.IsNullOrEmpty(txtaImagen.Text) && (txtaImagen.Text.StartsWith("http://") || txtaImagen.Text.StartsWith("https://"))) //&& !txtaImagen.Text.StartsWith("https://www")))
+                imgArticulo.ImageUrl = txtaImagen.Text + "?v=" + DateTime.Now.Ticks.ToString();
             else
                 imgArticulo.ImageUrl = "https://th.bing.com/th/id/R.ca0f4aeff51ff7e15c440816546f7730?rik=eJ5AEYKPVEnIIA&pid=ImgRaw&r=0&sres=1&sresct=1";
 

@@ -1,0 +1,9 @@
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\bin\Release\Negocio.dll
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\bin\Release\Negocio.pdb
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\bin\Release\Dominio.dll
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\bin\Release\Dominio.pdb
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\obj\Release\Negocio.csproj.AssemblyReference.cache
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\obj\Release\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\obj\Release\Negocio.csproj.Up2Date
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\obj\Release\Negocio.dll
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\obj\Release\Negocio.pdb

@@ -186,15 +186,6 @@ namespace WebForm
         protected global::System.Web.UI.WebControls.TextBox txtDescripcion;
 
         /// <summary>
-        /// Control udpImagen.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.UpdatePanel udpImagen;
-
-        /// <summary>
         /// Control lblImagen.
         /// </summary>
         /// <remarks>

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.UI.WebControls;
 
-namespace Conexión
+namespace Negocio
 {
     public static class Validacion
     {

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Dominio;
-using Conexión;
+using Negocio;
 
 namespace WebForm
 {
@@ -49,6 +49,11 @@ namespace WebForm
 
                 Session.Add("error", ex.ToString());
             }
+        }
+
+        protected void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
         }
     }
 }

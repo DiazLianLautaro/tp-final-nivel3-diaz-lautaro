@@ -50,10 +50,8 @@ C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\bin\roslyn\vbc.exe.
 C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\bin\roslyn\vbc.rsp
 C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\bin\roslyn\VBCSCompiler.exe
 C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\bin\Conexión.dll
 C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\bin\Dominio.dll
 C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\bin\Conexión.pdb
 C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\bin\Dominio.pdb
 C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\obj\Debug\WebForm.csproj.AssemblyReference.cache
@@ -61,3 +59,5 @@ C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\obj\Debug\WebForm.c
 C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\obj\Debug\WebForm.csproj.Up2Date
 C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\obj\Debug\WebForm.dll
 C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\obj\Debug\WebForm.pdb
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\bin\Negocio.dll
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\WebForm\bin\Negocio.pdb

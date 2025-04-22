@@ -4,8 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Conexión;
-using Dominio;
+using Negocio;
 
 namespace WebForm
 {
@@ -19,16 +18,23 @@ namespace WebForm
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
             EmailService email = new EmailService();
-            email.armarCorreo(tbxEmail.Text, tbxAsunto.Text, tbxMensaje.Text);
             try
             {
-                email.enviarEmail();
+                if (!(tbxEmail.Text == "" || tbxAsunto.Text == "" || tbxMensaje.Text == ""))
+                {
+                    email.armarCorreo(tbxEmail.Text, tbxAsunto.Text, tbxMensaje.Text);
+                    email.enviarEmail();
+                }
             }
             catch (Exception ex)
             {
-
                 Session.Add("error", ex);
             }
+        }
+
+        protected void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
         }
     }
 }

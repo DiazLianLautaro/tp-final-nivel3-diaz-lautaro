@@ -1,4 +1,4 @@
-﻿rr<%@ Page Title="" Language="C#" MasterPageFile="~/MiMaster.Master" AutoEventWireup="true" CodeBehind="Detalle.aspx.cs" Inherits="WebForm.Detalle" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MiMaster.Master" AutoEventWireup="true" CodeBehind="Detalle.aspx.cs" Inherits="WebForm.Detalle" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -6,7 +6,7 @@
 
 
     <div class="row">
-            <%if (Conexión.Seguridad.esAdmin(Session["usuario"]))
+            <%if (Negocio.Seguridad.esAdmin(Session["usuario"]))
                 {%>
             <div>
                 <h1>Eres admin, podés ver el ID.</h1>

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Dominio;
 
-namespace Conexión
+namespace Negocio
 {
     public class UsuarioConexión
     {

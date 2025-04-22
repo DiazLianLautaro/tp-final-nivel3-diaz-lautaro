@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Dominio;
-using Conexión;
+using Negocio;
 
 namespace WebForm
 {

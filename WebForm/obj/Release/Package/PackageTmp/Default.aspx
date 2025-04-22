@@ -15,7 +15,7 @@
     else
     { %>
     <h4>Debes Ingresar Para Continuar</h4>
-    <a href="Login.aspx" class="btn btn-outline-success me-2">Ingresar</a>
+    <a href="Login.aspx" class="btn btn-danger">Ingresar</a>
     <%} %>
 
     <hr />

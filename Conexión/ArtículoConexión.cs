@@ -7,8 +7,9 @@ using System.Data.SqlClient;
 using Dominio;
 using System.Globalization;
 using static System.Net.WebRequestMethods;
+using System.Web.Configuration;
 
-namespace Conexión
+namespace Negocio
 {
     public class ArtículoConexión
     {
@@ -22,7 +23,7 @@ namespace Conexión
             try
             {
                 //Cadena de conexión
-                conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_WEB_DB; integrated security=true";
+                conexion.ConnectionString = WebConfigurationManager.AppSettings["cadenaConexion"];
                 comando.CommandType = System.Data.CommandType.Text;
                 comando.CommandText = "select A.Id, Codigo, Nombre, A.Descripcion, M.Descripcion Marca, C.Descripcion Tipo, IdMarca, IdCategoria, ImagenUrl, Precio from ARTICULOS A, CATEGORIAS C, MARCAS M Where M.Id = IdMarca And C.Id = IdCategoria ";
                 

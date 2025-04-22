@@ -6,7 +6,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Conexión
+namespace Negocio
 {
     public class EmailService
     {
@@ -28,6 +28,7 @@ namespace Conexión
             email.From = new MailAddress("norespoder@ecomerce.com");
             email.To.Add(emailDestino);
             email.Subject = asunto;
+            email.Body = cuerpo;
         }
 
         public void enviarEmail()

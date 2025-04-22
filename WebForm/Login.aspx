@@ -16,6 +16,7 @@
                 <asp:TextBox type="password" ID="tbxPass" class="form-control formGreey border-dark" runat="server" />
             </div>
             <asp:Button ID="brnAceptar" CssClass="btn btn-primary" runat="server" Text="Ingresar" OnClick="brnIngresar_Click" />
+            <asp:Button ID="btnCancelar" Text="Cancelar" CssClass="btn btn-primary" OnClick="btnCancelar_Click" runat="server" />
         </div>
     </div>
     <%--<asp:Label Text="" ID="lblSaludo" runat="server" />--%>

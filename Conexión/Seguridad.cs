@@ -6,9 +6,8 @@ using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 using static Dominio.Usuario;
-using Conexión;
 
-namespace Conexión
+namespace Negocio
 {
     public static class Seguridad
     {

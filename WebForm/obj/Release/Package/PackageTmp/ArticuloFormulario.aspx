@@ -76,22 +76,22 @@
             <%}%>
         </div>
 
+
         <div class="col-6">
             <div class="mb-3">
                 <asp:Label ID="lblDescripcion" Text="Descripción" CssClass="form-label" runat="server" />
                 <asp:TextBox ID="txtDescripcion" TextMode="MultiLine" CssClass="form-control formGreey border-dark" runat="server" />
                 <asp:RequiredFieldValidator CssClass="validacion" ErrorMessage="El Campo Descripción no debe estar vacío." ControlToValidate="txtDescripcion" runat="server" />
             </div>
-            <asp:UpdatePanel ID="udpImagen" runat="server">
-                <ContentTemplate>
+            <%--<asp:UpdatePanel ID="udpImagen" runat="server">
+                <ContentTemplate>--%>
                     <div class="mb-3">
                         <asp:Label ID="lblImagen" Text="Imagen" runat="server" />
                         <asp:TextBox ID="txtaImagen" AutoPostBack="true" OnTextChanged="txtaImagen_TextChanged" CssClass="form-control formGreey border-dark" runat="server" />
-                        <asp:RequiredFieldValidator CssClass="validacion" ErrorMessage="El Campo Imagen no debe estar vacío." ControlToValidate="txtaImagen" runat="server" />
                     </div>
                     <asp:Image ID="imgArticulo" class="tamañoImagensDetalle" ImageUrl="https://th.bing.com/th/id/R.ca0f4aeff51ff7e15c440816546f7730?rik=eJ5AEYKPVEnIIA&pid=ImgRaw&r=0&sres=1&sresct=1" runat="server" />
-                </ContentTemplate>
-            </asp:UpdatePanel>
+                <%--</ContentTemplate>
+            </asp:UpdatePanel>--%>
         </div>
     </div>
 

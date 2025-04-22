@@ -1,4 +1,4 @@
-﻿using Conexión;
+﻿using Negocio;
 using Dominio;
 using System;
 using System.Collections.Generic;

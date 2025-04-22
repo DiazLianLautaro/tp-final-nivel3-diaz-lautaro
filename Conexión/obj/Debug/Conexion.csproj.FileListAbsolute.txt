@@ -1,0 +1,9 @@
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\bin\Debug\Dominio.dll
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\bin\Debug\Dominio.pdb
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\obj\Debug\Conexion.csproj.AssemblyReference.cache
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\obj\Debug\Conexion.csproj.CoreCompileInputs.cache
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\obj\Debug\Conexion.csproj.Up2Date
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\bin\Debug\Conexion.dll
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\bin\Debug\Conexion.pdb
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\obj\Debug\Conexion.dll
+C:\Users\Lauty\Documents\CursoC#3\TPFinalNivel3_Diaz\Conexión\obj\Debug\Conexion.pdb
